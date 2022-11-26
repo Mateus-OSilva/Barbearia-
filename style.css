@@ -226,7 +226,7 @@ td, th {
     font-weight: bold;
  }
 
- .itens:before{
+ .itens:before{ 
     content: "★";
  }
 
