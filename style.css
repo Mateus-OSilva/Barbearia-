@@ -40,7 +40,7 @@ nav a:hover {
 .produtos {
     width: 940px;
     margin: 0 auto;
-    padding: 50px 0;  
+    padding: 50px 0;
 }
 
 .produtos li {
@@ -92,20 +92,21 @@ footer {
     color: #FFFFFF;
     font-size: 13px;
     margin: 20px;
-    
+
 }
 
-form { 
+form {
     margin: 40px 0;
 }
 
-form label, form legend {  
-    display:block;
+form label,
+form legend {
+    display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-.input-padrao { 
+.input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
@@ -113,10 +114,10 @@ form label, form legend {
 }
 
 .checkbox {
-    margin: 20px 0; 
+    margin: 20px 0;
 }
 
-.enviar { 
+.enviar {
     width: 40%;
     padding: 15px 0;
     background: orange;
@@ -128,45 +129,46 @@ form label, form legend {
     transition: 1s background;
     cursor: pointer;
 }
- 
-.enviar:hover { 
+
+.enviar:hover {
     background: darkorange;
     transform: scale(1.1);
 }
 
-table { 
+table {
     margin: 20px 0 40px;
 }
 
-thead { 
+thead {
     background: #555555;
     color: white;
     font-weight: bold;
 }
 
-td, th {
+td,
+th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
 
 /* css da pagina inicial */
-.banner { 
+.banner {
     width: 100%;
 }
 
-.principal { 
-    padding: 3em 0; 
+.principal {
+    padding: 3em 0;
     background: #FEFEFE;
     width: 940px;
     margin: 0 auto;
 }
 
 
-.titulo-principal { 
+.titulo-principal {
     text-align: center;
-    font-size: 2em; 
+    font-size: 2em;
     margin: 0 0 1em;
-    clear: left; 
+    clear: left;
 
 }
 
@@ -178,21 +180,22 @@ td, th {
     font-weight: bold;
 }
 
-.utensilios{
-    width: 120px; 
+.utensilios {
+    width: 120px;
     float: left;
     margin: 0 20px 20px 0;
 }
 
 .mapa {
     padding: 3em 0;
-    background: linear-gradient(#FEFEFE,#888888); 
+    background: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa-conteudo {
     width: 940px;
     margin: 0 auto;
 }
+
 .mapa p {
     margin: 0 0 2em;
     text-align: center;
@@ -216,23 +219,23 @@ td, th {
     width: 40%;
     display: inline-block;
     vertical-align: top;
- }
+}
 
- .itens {
+.itens {
     line-height: 1.5;
- }
+}
 
- .itens:first-child { 
+.itens:first-child {
     font-weight: bold;
- }
+}
 
- .itens:before{ 
+.itens:before {
     content: "★";
- }
+}
 
 .imagem-beneficios {
     width: 60%;
-    opacity: 1; 
+    opacity: 1;
     transition: 400s;
     box-shadow: 10px 10px 10px #000000;
 }
@@ -247,7 +250,12 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .vídeo {
+
+    .caixa,
+    .principal,
+    .conteudo-beneficios,
+    .mapa-conteudo,
+    .vídeo {
         width: auto;
     }
 
@@ -259,7 +267,8 @@ td, th {
         position: static;
     }
 
-    .lista-beneficios, .imagem-beneficios {
+    .lista-beneficios,
+    .imagem-beneficios {
         width: 100%;
     }
 }
