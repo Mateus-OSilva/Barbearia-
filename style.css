@@ -256,7 +256,7 @@ th {
     .conteudo-beneficios,
     .mapa-conteudo,
     .vídeo {
-        width: auto;
+        width: auto; 
     }
 
     h1 {
